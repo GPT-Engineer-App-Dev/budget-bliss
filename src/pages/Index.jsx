@@ -2,7 +2,7 @@ import { Box, Container, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/re
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="background">
       <VStack spacing={8} align="stretch">
         <Heading as="h1" size="2xl" textAlign="center" my={8}>
           Financial News Today
